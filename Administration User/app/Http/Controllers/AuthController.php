@@ -25,7 +25,7 @@ class AuthController extends Controller
         );
 
         $validated['password'] = Hash::make($validated['password']);
-        $validated['is_admin'] = false;
+        $validated['is_admin'] = true;
 
         $user = User::create($validated);
 

@@ -11,7 +11,7 @@ class ImageController extends Controller
     {
         $file_path = $request->input('file_path');
         // $folder = env("FILE_FOLDER", "");
-        $folder = env("FILE_FOLDER", "D:\Online Language Testing and Certificate Service\Administration User\public\storage");
+        $folder = env("FILE_FOLDER", "D:\github\CS262_Section2_Team1_Final_Project\Administration User\public\storage");
         $file = $folder . '/' . $file_path;
 
         // check if file exists
