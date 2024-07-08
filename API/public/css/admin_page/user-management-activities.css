@@ -1,0 +1,66 @@
+
+.link-mn a{
+  text-decoration: none;
+  color:#3f1488;
+}
+.link-mn a:hover{
+  text-decoration: none;
+  color:#8358ce;
+}
+.purple-text{
+  color: #3f1488;
+}
+.purple-bg{
+  background-color:#3f1488;
+}
+.bg-custom-pro{
+  background-color: #804add;
+}
+
+.purple-button {
+  background-color: #3f1488 !important;
+  border-color: #3f1488 !important;
+  color: white !important;
+}
+
+.purple-button:hover {
+  background-color: #c729c7 !important;
+  border-color: #c729c7 !important;
+}
+.card-img-top {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 0.55rem;
+}
+.card {
+  border: none;
+}
+
+.card {
+  transition: transform .2s; /* Animation */
+}
+
+.card:hover {
+  transform: scale(1.05); /* (105% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.card:active {
+  transform: scale(0.95);
+}
+
+.card:hover .card-img-top {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-text {
+  font-weight: 600;
+}
+.progress {
+  height: 30px; /* Adjust this value to increase or decrease the height */
+}
+
+.progress, .progress-bar {
+  border-radius: 1rem; /* Adjust this value to increase or decrease the border radius */
+}

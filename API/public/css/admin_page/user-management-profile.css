@@ -1,0 +1,48 @@
+.profile-card {
+  max-width: 800px;
+  margin: auto;
+  padding: 40px;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  background-color: white;
+}
+.profile-card .avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.profile-card  h4{
+  width: 70px;
+  height: 70px;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  margin-left: 30px;
+  color: purple;
+}
+
+.profile-card  i{
+  font-size: 16px;
+  cursor: pointer;
+  color: #9B5BDC;
+}
+
+.profile-card .button .btn-primary{
+  background-color: #9B5BDC;
+}
+
+.profile-card .edit-icon:hover {
+  color: #495057;
+}
+.profile-header {
+  text-align: center;
+}

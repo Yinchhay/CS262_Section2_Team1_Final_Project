@@ -1,0 +1,151 @@
+.link-mn a {
+  text-decoration: none;
+  color: #3f1488;
+}
+.link-mn a:hover {
+  text-decoration: none;
+  color: #8358ce;
+}
+.purple-text {
+  color: #3f1488;
+}
+.text-orr {
+  color: #FF7A00;
+}
+.green-text {
+  color: #28a745;
+}
+.red-text {
+  color: #dc3545;
+}
+.custom-text{
+  color:#3f1488;
+}
+
+.bg-custom-pro {
+  background-color: #804add;
+}
+.bg-custom{
+  background-color: #3f1488;
+}
+
+.no-padding{
+  padding:0;
+}
+.material-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 1rem;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.image-container{
+  width:18rem;
+}
+
+.resizable-card {
+  width: 50%;
+  max-width: 100%;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.resizable-box {
+  width: 100%;
+  max-width: 100%;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
+  padding:2rem;
+}
+
+
+.resizable-progress {
+  width: 100%;
+  
+}
+
+.voca-box .gram-box .listen-box{
+  border: 1px bold purple;
+}
+
+.border-red {
+  border-color: #ff4d4d !important; /* Red color */
+}
+
+.border-blue {
+  border-color: #0052cc !important; /* Blue color */
+}
+
+.border-green {
+  border-color: #11cc08 !important; /* Yellow color */
+}
+.circular-progress {
+  position: relative;
+  width: 100px;
+  height: 80px;
+  margin: 0 auto;
+  padding-bottom:0;
+}
+
+.circular-progress .circle-bg {
+  fill: none;
+  stroke: #d0e2ff;
+  stroke-width: 10;
+}
+
+.circular-progress .circle {
+  fill: none;
+  stroke-width: 10;
+  stroke-linecap: round;
+  transform: rotate(-90deg);
+  transform-origin: center;
+  stroke-dasharray: 283;
+  stroke-dashoffset: 283;
+  transition: stroke-dashoffset 1s;
+}
+
+.circular-progress .inner {
+  position: absolute;
+  top: 36%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.border-red .circle {
+  stroke: red;
+}
+
+.border-blue .circle {
+  stroke: blue;
+}
+
+.border-green .circle {
+  stroke: rgb(0, 255, 72);
+}
+.img-filter {
+  width: 3rem;
+  height: 3rem;
+  margin-bottom: 10px;
+}
+.img-filter-lis {
+  width: 3.55rem;
+  height: 3rem;
+  margin-bottom: 10px;
+}
+
+.pad-s{
+  padding:1rem;
+  padding-left:1.7rem;
+  padding-right:1.7rem;
+}
+
+.fullM-sty{
+  background-color:#b48cf8;
+  padding: 1.3rem 1.7rem;
+  color: white;
+  border-radius: 1rem;
+}
+
+.progress {
+    height: 1.75rem;
+}

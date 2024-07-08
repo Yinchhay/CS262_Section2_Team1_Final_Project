@@ -1,0 +1,140 @@
+
+.link-mn a{
+  text-decoration: none;
+  color:#3f1488;
+}
+.link-mn a:hover{
+  text-decoration: none;
+  color:#8358ce;
+}
+.purple-text{
+  color: #3f1488;
+}
+.purple-bg{
+  background-color:#3f1488;
+}
+.bg-custom-pro{
+  background-color: #804add;
+}
+
+.purple-button {
+  background-color: #3f1488 !important;
+  border-color: #3f1488 !important;
+  color: white !important;
+}
+
+.purple-button:hover {
+  background-color: #c729c7 !important;
+  border-color: #c729c7 !important;
+}
+
+.no-border-card {
+  border: none;
+}
+.no-border-cert {
+  border: none;
+}
+.certificate-img {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 0;
+  max-width: 100%;
+  height: auto;
+}
+.certificate-img-big {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+.certificate-title {
+  color: #6A1B9A;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.certificate-text {
+  color: #6A1B9A; 
+  font-size: 35px;
+  font-weight:550;
+  margin-bottom:-0.77rem;
+}
+.certificate-text1 {
+  color: #6A1B9A; 
+  font-size: 35px;
+  font-weight:550;
+  margin-bottom:0;
+}
+
+
+.certificate-text2 {
+  color: black;
+  font-size: 20px;
+  font-weight:600;
+  margin-bottom:0;
+}
+
+.certificate-subtext {
+  color: #FF6F00; 
+  font-size: 26px;
+  font-weight: 550;
+}
+
+.download-btn {
+  margin-top: 2rem;
+  background-color: #6A1B9A; 
+  color: #fff;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 18px;
+  width:100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.download-btn:hover {
+  background-color: #4A148C; 
+  color: #fff;
+}
+
+.download-btn i {
+  margin-right: 8px;
+}
+.card.no-border-card {
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card.no-border-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  color: #6A1B9A;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom:0;
+}
+
+.card-text {
+  color: #6A1B9A; 
+  font-size: 23px;
+  font-weight:500;
+  margin-bottom:0;
+  margin-top:-0.4rem;
+}
+.card-text1 {
+  color: #FF6F00; 
+  font-size: 21px;
+  font-weight: 550;
+  margin-bottom: 0;
+  margin-top:-0.2rem;
+}
+
+.card-text2 {
+  color: black;
+  font-size: 17px;
+  font-weight:400;
+  margin-bottom:0;
+}
+

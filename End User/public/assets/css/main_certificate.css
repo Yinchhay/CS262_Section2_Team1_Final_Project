@@ -1,0 +1,41 @@
+.certificate-container {
+    max-width: 1220px;
+    margin: auto;
+    padding: 20px;
+}
+
+
+.search-bar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.search-bar .search-input input{
+    padding: 10px;
+    height: 40px;
+    width: 380px;
+    border-radius: 10px;
+}
+
+.search-bar button{
+    height: 40px;
+    color: white;
+}
+
+.filter-buttons {
+    display: flex;
+    gap: 10px;
+}
+.table tbody tr {
+    vertical-align: middle;
+}
+.table tbody tr td a{
+    color: black;
+}
+.btn-purple {
+    background-color: #9B5BDC;
+    color: white;
+}
+.btn-purple:hover {
+    background-color: grey;
+}

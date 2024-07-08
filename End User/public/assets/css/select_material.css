@@ -1,0 +1,124 @@
+.poster {
+    margin-top: 20px;
+    width: 180px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+}
+
+.material-content {
+    margin-top: 60px;
+    margin-left: 50px;
+    width: 400px;
+}
+
+.material-content h1{
+    font-size: 25px;
+    font-weight: bold;
+    color: #3E008E;
+}
+
+.material-content h2{
+    font-size: 25px;
+    font-weight: bold;
+    color: #FF7A00;
+}
+
+.material-content .small-text{
+    margin-top: 40px;
+}
+
+.material-content .small-text i{
+    color: #9B5BDC; 
+}
+
+.material-content .small-text p{
+    margin-left: 15px;
+}
+
+
+
+
+.card {
+    margin-top: 30px;
+    margin-left: 11px;
+    width: 600px;
+    height: 370px;
+
+}
+
+.card h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+    color:#3E008E;
+}
+
+.card-body {
+    height: 300px;
+}
+
+.card-body .performance-card{
+    width: 170px;
+    height: 200px;
+    margin-right: 20px;
+    border-style: groove;
+    align-content: center;
+    text-align: center;
+    border-radius: 10px;
+    border-width: 1px;
+}
+
+.performance-card i{
+    font-size: 30px;
+}
+
+.performance-card .btn{
+    border-radius: 20px;
+}
+
+ .performance-card p{
+    border-style: solid;
+    margin-left: 40%;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border-width: 1px;
+}
+
+.progress-container {
+    background-color: #e0bdf6;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+.progress-bar-custom {
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 15px; 
+}
+
+.start-button {
+    background-color: #4b0082;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    height: 35px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+.start-button:hover {
+    background-color: #3a0066;
+}
+.start-button:focus {
+    outline: none;
+    box-shadow: none;
+}

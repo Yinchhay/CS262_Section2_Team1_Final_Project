@@ -1,0 +1,86 @@
+.title{
+    color: #3E008E;
+}
+.score-content{
+    width: 50%;
+}
+
+.score-content h4{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #3E008E;
+}
+
+.answer-content h4{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #3E008E;
+}
+
+.lead{
+  color: #3E008E;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.button-group .btn{
+    width: 100px;
+    margin: 10px;  
+    background-color:#3E008E;
+    color: white; 
+}
+
+
+.list-group-item {
+  padding: 10px;
+}
+
+ 
+.answer-key .list-group-item span{
+  margin-right:5px;
+  font-size: 15px;
+}
+
+.list-group-item .text-primary{
+  font-size: 16px;
+  padding: 2px;
+  font-weight: bold;
+}
+
+.list-group-item .user-answer{
+  font-size: 16px;
+  padding: 2px;
+  margin-left: 3px;
+}
+
+.list-group-item .correct { 
+  margin-left: 5px;
+  color: green;
+}
+
+.list-group-item .incorrect { 
+    color: red; 
+    margin-left: 5px;
+}
+
+.answer-key { font-size: 1.2em; }
+.answer-key span { font-size: 1em; }   
+.chart-container {
+  position: relative;
+  width: 40%;
+  margin: auto;
+}
+.chart-center-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    font-weight: 600;
+    color: #9B5BDC;
+    text-align: center;
+    pointer-events: none;
+}
+  

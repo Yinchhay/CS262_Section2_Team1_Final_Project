@@ -1,0 +1,114 @@
+.material-container {
+    max-width: 1220px;
+    margin: auto;
+    padding: 20px;
+}
+
+.search-bar{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.search-bar .search-input input{
+    padding: 10px;
+    height: 40px;
+    width: 295px;
+    border-radius: 10px;
+}
+
+.search-bar button{
+    height: 40px;
+    color: white;
+}
+
+.btn-purple {
+    background-color: #9B5BDC;
+    color: white;
+}
+.btn-purple:hover {
+    background-color: grey;
+}
+
+.dropdown .btn-outline-dark{
+    color: black;
+    background-color: white;
+    border-color:black
+}
+
+.btn-primary:hover {
+    background-color: grey;
+}
+
+.content-container {
+    padding:20px;
+    margin: auto;
+    max-width: 1220px;
+
+}
+
+.content-container h1{
+    font-size: 20px;
+    font-weight: bold;
+    color:#3E008E;
+}
+
+.material-body a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.side-scroll{
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    overflow: auto;
+    width: 100%;
+}
+
+/* scrollbar */
+
+.side-scroll::-webkit-scrollbar {
+    display:contents;
+    height: 6px;
+}
+
+
+.side-scroll::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2px black;
+    border-radius: 100px;
+}
+
+.side-scroll::-webkit-scrollbar-thumb {
+    background: #3E008E;
+    border-radius: 100px;
+}
+
+.material-body a:hover{
+    text-decoration: none;
+    color: grey ;
+}
+
+.material-body{
+    width: 170px;
+    margin-right: 30px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.material-body .material-img img{
+    width: 170px;
+    box-shadow: 0px 0px 5px ;
+    border-radius: 10px;
+}
+
+.material-body .material-text {
+    font-size: 14px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.material-body .material-text a{
+    text-decoration: none;
+    color: black;
+}

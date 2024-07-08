@@ -1,0 +1,32 @@
+.instruction-content h3{
+    font-size: 25px;
+    font-weight: bold;
+    color:#3E008E;
+}
+
+.instruction-content p{
+   font-size: 13px;
+}
+
+.question-form{
+    padding: 25px;
+}
+
+.answer-text{
+    width: 350px;
+    margin-left: 10px;
+    border: none;
+    background-color: #f6f9ff;
+    border-bottom: 2px solid grey;
+}
+
+.answer-text:focus{
+    outline: none;
+
+}
+
+
+.btn-primary a{
+    color: white;
+}
+

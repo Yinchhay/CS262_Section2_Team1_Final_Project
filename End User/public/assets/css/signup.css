@@ -1,0 +1,140 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+  }
+  
+  a {
+    color: #957CFE;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #206bfb;
+    text-decoration: none;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Raleway", sans-serif;
+  }
+
+section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+
+  
+
+  
+
+  .signup .signup-form {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    padding: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    box-shadow: 1px 1px 6px 1px #888888;
+    border-radius: 10px;
+
+  }
+  .signup .signup-form .form-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .signup .signup-form .form-content h2{
+    font-weight: 800;
+    text-align: center;
+  }
+  .signup .signup-form .form-content p{
+    text-align: center;
+  }
+  
+  .signup .signup-form .form-group {
+    padding-bottom: 8px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .signup .signup-form .error-message {
+    display: none;
+    color: #fff;
+    background: #ed3c0d;
+    padding: 15px;
+    font-weight: 600;
+    justify-content: center;
+  }
+  
+  .signup .signup-form .error-message br+br {
+    margin-top: 25px;
+  }
+  
+  .signup .signup-form .sent-message {
+    display: none;
+    color: #fff;
+    background: #18d26e;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+  }
+  
+  .signup .signup-form .loading {
+    display: none;
+    background: #fff;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .signup .signup-form .loading:before {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px -6px 0;
+    border-top-color: #eee;
+    animation: animate-loading 1s linear infinite;
+  }
+  
+  
+  
+  .signup .signup-form input {
+    height: 44px;
+  }
+  
+  
+  .signup .signup-form button{
+    background: blueviolet;
+    border: 0;
+    padding: 10px 160px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 10px;
+    box-shadow: 1px 2px 2px #888888;
+  }
+  
+  .signup .signup-form button:hover {
+    background: grey;
+  }
+  
+  @keyframes animate-loading {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }

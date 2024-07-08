@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&family=Saira+Condensed&family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.header {
+    background-color: white;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.25);
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container img {
+    margin-right: 6px;
+}
+
+.logo-top,
+.logo-bottom {
+    display: block;
+    line-height: 110%;
+}
+
+.logo-top {
+    font-size: 30px;
+}
+
+.logo-bottom {
+    font-size: 15px;
+    letter-spacing: calc(15px * 0.24);
+}
+
+.navbar-nav {
+    font-size: 20px;
+}
+
+.username {
+    letter-spacing: calc(20px * 0.07);
+    text-transform: uppercase;
+}
+
+.nametag {
+    width: 35px;
+    height: 35px;
+    background-color: #930A0A;
+    border-radius: 50%;
+    padding: 20px;
+    color: white;
+}
+
+.main-section {
+    position: relative;
+}
+
+.sidebar {
+    position: fixed;
+    top: 75px;
+    width: 270px;
+    height: 100%;
+    padding-top: 20px;
+    background-color: white;
+    box-shadow: 8px 0 5px -4px rgba(0, 0, 0, 0.25);
+    transition: all 0.5s ease;
+    z-index: 1000;
+}
+
+.sidebar .text {
+    white-space: nowrap;
+}
+
+.sidebar.close,
+.sidebar.close .nav-item a {
+    width: 38px;
+}
+
+.sidebar.close .nav-link span.text {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.sidebar .toggle-container {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.sidebar .toggle {
+    position: absolute;
+    top: 50%;
+    right: -15px;
+    transform: translateY(-50%) rotate(180deg);
+    height: 30px;
+    width: 30px;
+    background-color: var(--purple);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: white;
+    font-size: 28px;
+}
+
+.sidebar.close .toggle {
+    transform: translateY(-50%);
+}
+
+.sidebar .menu-bar {
+    height: calc(100% - 85.5px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.sidebar span {
+    color: black;
+}
+
+.sidebar .icon {
+    color: var(--purple);
+    font-size: 25px;
+}
+
+.sidebar .nav-item .nav-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    font-size: 20px;
+    position: relative;
+    padding: 8px 0;
+}
+
+.sidebar .nav-link .bx-chevron-down {
+    margin-right: 0;
+    transition: transform 0.2s ease-in-out;
+}
+
+.sidebar .nav-link:not(.collapsed) .bx-chevron-down {
+    transform: rotate(180deg);
+}
+
+.sidebar #serviceManagement {
+    margin-left: 2rem;
+    transition: all 0.3s;
+}
+
+.sidebar #serviceManagement li {
+    border-left: 3px solid var(--purple);
+}
+
+.sidebar #serviceManagement .nav-link {
+    padding: 2px 8px;
+}
+
+.nav-link.active span {
+    text-decoration: underline;
+    color: var(--purple);
+}
+
+.nav-link.collapsed.active {
+    text-decoration: none;
+    color: var(--purple);
+}
+
+.nav-link.active.bg-purple {
+    padding-left: 10px;
+    background-color: rgba(156, 91, 220, 0.5);
+    border-radius: 8px;
+}
+
+.nav-link.disabled-underline.active {
+    text-decoration: none;
+    color: var(--purple);
+}
+
+.nav-link.sub-item.active {
+    background-color: rgba(156, 91, 220, 0.5);
+}
+
+.section {
+    position: relative;
+    /* background-color: #7d7d7d; */
+    left: 270px;
+    width: calc(100% - 270px);
+    height: 100%;
+    transition: all 0.5s ease;
+}
+
+.sidebar.close~.section {
+    left: 38px;
+    width: calc(100% - 38px);
+}
+
+main {
+    min-height: calc(100vh - 119.5px);
+    padding: 30px 0;
+    padding-left: 18px;
+    /* overflow-x: auto; */
+}
+
+main::-webkit-scrollbar {
+    display: none;
+}
+
+.container-fluid {
+    /* padding-left: 0; */
+    padding-right: 0;
+}
+
+/* ----- SCROLLBAR ----- */
+::-webkit-scrollbar {
+    width: 9px;
+    height: 9px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent !important;
+    /* Set background to transparent */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #757575;
+    border-radius: 3px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    /* background: linear-gradient(325deg, rgba(115, 198, 74, 1) 0%, rgba(16, 131, 76, 1) 100%); */
+    background-color: #393939;
+}
